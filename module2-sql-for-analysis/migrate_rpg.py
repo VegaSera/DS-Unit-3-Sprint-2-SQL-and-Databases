@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import psycopg2
 from sqlalchemy import create_engine
 
-filepath = os.path.join(os.path.dirname(__file__),"..","module1-introduction-to-sql",)
+filepath = os.path.join(os.path.dirname(__file__),"..","module1-introduction-to-sql","")
 #filepath = 'C:/Users/Vega/Documents/DS-Unit-3-Sprint-2-SQL-and-Databases/module1-introduction-to-sql/' # Original Filepath
 conn = sqlite3.connect(filepath + 'rpg_db.sqlite3')
 
