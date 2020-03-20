@@ -27,7 +27,7 @@ q1_result = run_query(q1_query)
 print(f"These are the top {num} most expensive items.")
 for i in range(num):
     print(f"{q1_result[i][0]} - Price: {q1_result[i][1]}")
-print('\n') #Newline to separate from the next question
+print('\n') #Newline to separate from the next question. Purely stylistic
 
 #Printed Results
 """ 

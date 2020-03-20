@@ -55,3 +55,11 @@ FROM demo
 
 q3_result = run_query(q3_query)
 print(f"There are {q3_result[0][0]} distinct values of y.")
+
+
+#Printed Results
+"""
+Our demo table has 3 rows.
+There are 2 rows where columns x and y are both at least 5.
+There are 2 distinct values of y.
+"""
